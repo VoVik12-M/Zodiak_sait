@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестt</title>
+    <style>
+/* :root {
+    --bg-color: white;
+    --text-color: black;
+} */
+
+body {
+    background-color: var(--bg-color, blue);
+    color: var(--text-color, purple);
+    font-family: sans-serif;
+    transition: background 0.3s, color 0.3s;
+    padding: 20px;
+}
+
+/* Темна тема */
+.dark-theme {
+    --bg-color: #1e1e1e;
+    --text-color: white;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <button id="theme-toggle">Змінити тему</button>
+
+    <h1>Привіт, світ!</h1>
+    <p>Це приклад перемикання теми з CSS-змінними.</p>
+<script>
+    
+    const btn = document.getElementById('theme-toggle');
+
+    btn.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+});
+
+</script>
+</body>
+</html>

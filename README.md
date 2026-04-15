@@ -4,4 +4,7 @@
 ![картнка1](readme/Page_1.png)
 
 **Сторінка опису**
-![картнка2](readme/Page_2.png)
+![картнка2](readme/Page_2.png)  
+
+Посилання на проект!  
+[Гороскоп](https://vovik12-m.github.io/Zodiak_sait/)
